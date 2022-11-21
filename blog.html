@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/navStyle.css" type="text/css" rel="stylesheet">
+   <style>
+    /*.container{
+        height:100%;
+        width:0;
+        position:fixed;
+        z-index:1;
+        z-index:1;
+        top:0;
+        left:0;
+        background-color:rgb(0,0,0);
+        background-color: rgba(0, 0, 0,0.9);
+        overflow-x:hidden;
+        transition:0.5s;
+
+    }
+
+    .menu{
+        position: relative;
+        top:25%;
+        width:100%;
+        text-align:center;
+        margin-top:30px;
+    }
+    .container a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color:#818181;
+        display:block;
+        transition:0.3s;
+    }
+    .container a:hover,.container a:focus{
+        color:#f1f1f1;}
+
+
+        .container .closeBtn{
+            position: absolute;
+            top:20px;
+            right:45px;
+            font-size:60px;
+        }
+   @media screen and (max-height:450px) {
+    .container a{font-size: 20px;}
+    .container .closebtn{
+        font-size: 40px;
+        top:15px;
+        right:35px;
+    }
+   } */
+    
+   </style>
+    <script defer src="script/mobilemenu.js" charset="UTF-8"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+      <div class="container" id="myNav">
+        <a class="closebtn" href="javascript:void(0)" onclick="closeNav()" ><h2 class="h1">UGOWEB</h2></a>
+        <div class="menu">
+           <a class="anchor" href="home.html" title="home"> Home</a>
+           <a class="anchor" href="blog.html">  Blog</a>
+           <a class="anchor" href="Login.html"> Login</a>
+           <a class="anchor" href="contact.html"> Contact Us</a>
+           <a class="anchor" href="bio.html"> About Us
+           <a class="anchor" href="executives.html"> Executives</a>
+           </div>
+        <div class="mobile">
+           <span id="mobilemenu" onclick="openNav()">≡open</span>
+           <i class="icon"></i>
+           <i class="icon"></i>
+       </div>
+    </div>
+     
+    </nav>
+<h1>Blog and learn  endless</h1>
+
+
+<!--<script>
+function openNav(){
+document.getElementById("myNav").style.width="100%";
+}
+
+function closeNav(){
+    document.getElementById("myNav").style.width="0%"
+}
+</script>-->
+<noscript>
+    Sorry this browser does not support javascript
+     or the javascript engine interpreter is disabled
+</noscript>
+    <footer align="center">
+        <p>ugoweb || all right reserve</p>
+    </footer>
+</body>
+</html>
